@@ -24,14 +24,10 @@ exports[`should render header correctly 1`] = `
       Create expense
     </NavLink>
   </p>
-  <p>
-    <NavLink
-      activeClassName="is-active"
-      aria-current="page"
-      to="/help"
-    >
-      Get help
-    </NavLink>
-  </p>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
